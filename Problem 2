@@ -12,6 +12,8 @@ int main ()
    int provB[7]; 
    int provC[7]; 
    int value1,value2,value3;
+  
+  cout << "--Please enter the Temperature for each province in a week-- \n";
        
   for ( int i = 1; i <=7; i++ ) 
 	{
