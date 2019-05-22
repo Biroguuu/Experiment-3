@@ -1,0 +1,30 @@
+#include <iostream>
+#include <conio.h>
+#include <iomanip>
+#include<cstdlib>
+
+using namespace std;
+
+int main()
+{
+    char arr[] = {'e','n','g','1','9','0','7'};
+    cout<<"Original: ";
+
+    for(int i = 0; i <= sizeof(arr) ; i++){
+        
+    cout<<arr[i];
+    }
+    cout<<endl<<"Reversed: ";
+    
+    for(int i = sizeof(arr); i >=0 ; i--){
+    cout<<arr[i];
+    }
+    
+    cout<<endl<<"Size of Array: " << sizeof(arr);
+
+	_getch();
+		
+	return 0;
+	
+	
+}
